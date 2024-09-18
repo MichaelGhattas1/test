@@ -3082,7 +3082,7 @@ padding: 0px;
       padding-inline: 20px !important;
       background-color: #6c737f;
       p{
-        direction: rtl;
+        direction: ltr;
         line-height: 36px !important;
         text-align:justify;
         font-size: 12px !important;
