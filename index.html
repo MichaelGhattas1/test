@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- cairo font  -->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    /> -->
+
+
+    <!-- alexendaria font  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Alumni Sans Collegiate One font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- font-awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl-carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- animate css  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="home">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
+
+          <div id="nav-overlay" class="nav-overlay">
+            <div class="logo">
+              <img src="assets/2024-08-14_100304 1.png" alt="" />
+            </div>
+  
+            <div
+              class="collapse justify-content-between navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mb-2 mb-lg-0  mx-lg-3 d-flex">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    onclick="updateActiveLink(this)"
+                    aria-current="page"
+                    href="#home"
+                    >الرئيسية</a
+                  >
+                </li>
+  
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    onclick="updateActiveLink(this)"
+                    aria-current="page"
+                    href="#about"
+                    >عن توازن</a
+                  >
+                </li>
+  
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    onclick="updateActiveLink(this)"
+                    aria-current="page"
+                    href="#curriculum"
+                    >منهجنا</a
+                  >
+                </li>
+  
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    onclick="updateActiveLink(this)"
+                    aria-current="page"
+                    href="#services"
+                    >خدماتنا</a
+                  >
+                </li>
+  
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    onclick="updateActiveLink(this)"
+                    aria-current="page"
+                    href="#ourTeam"
+                    >عملائنا</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex nav-form" role="search">
+                <!-- <input
+                  class="form-control nav"
+                  type="search"
+                  placeholder="البحث..."
+                  aria-label="Search"
+                /> -->
+                <button
+                  class="btn .nav-button text-center contact-us-navigator"
+                  type="submit"
+                >
+                  تواصل معنا
+                </button>
+              </form>
+            </div>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+       
+        </div>
+      </nav>
+
+      <div class="content">
+        <div class="home-container position-relative row gx-0">
+          <div
+            class="company-info col-lg-6 d-flex flex-column justify-content-center align-items-start"
+          >
+            <div class="title mb-3 d-flex flex-column">
+              <div class="dots-underline d-flex flex-column">
+                <div class="dots d-flex align-items-center justify-content-end">
+                  <div class="icon-warpper"></div>
+                  <div class="icon-warpper"></div>
+                </div>
+
+                <div class="white-line"></div>
+              </div>
+
+              <h1>للإستشارات الادارية</h1>
+
+              <p>
+                توفر توازن افضل الكفاءات وحلول الاعمال المتخصصه, ونقدم استشارات
+                ادارية في تطوير اعمال راس المال البشري ,,
+              </p>
+            </div>
+
+            <div
+              class="actionBtn w-100 d-flex align-items-center justify-content-sm-start justify-content-center"
+            >
+              <button class="services-navigator">
+                <i class="fa-solid fa-bars unhiv"></i>
+                <i class="hiv"> <img src="assets/arrowDown.svg" alt="" /> </i>
+                خدماتنا
+              </button>
+
+              <button class="contact-us-navigator">تواصل معنا</button>
+            </div>
+
+            <div
+              class="footer-social-icons w-100 d-flex align-items-center justify-content-sm-start justify-content-center pt-md-1 pt-4"
+            >
+              <div class="icon-warpper linkedin">
+                <img src="assets/linkedin_symbol.svg.svg" alt="" />
+              </div>
+
+              <div class="icon-warpper spaceX">
+                <img src="assets/x_logo.svg.svg" alt="" />
+              </div>
+
+              <!-- <div class="icon-warpper">
+                <img src="assets/fbVector.svg" alt="" />
+              </div> -->
+            </div>
+          </div>
+
+          <div
+            class="home-image-wrapper col-lg-6 d-flex align-items-center justify-content-center"
+          >
+            <div class="img-container">
+              <img src="assets/updated-logo.png" alt="" />
+            </div>
+          </div>
+
+          <div class="owl-slider-container">
+            <h4 class="d-sm-block d-none">عملائنا</h4>
+
+            <div class="carousel pt-3 overflow-x-hidden">
+              <div class="owl-carousel">
+                <div class="item">
+                  <img src="assets/team1.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team2.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team3.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team4.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team5.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team6.png" alt="" />
+                </div>
+                <div class="item">
+                  <img src="assets/team7.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team8.png" alt="" />
+                </div>
+                <div class="item">
+                  <img src="assets/team9.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team10.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team11.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team12.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team13.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team14.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team15.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team16.png" alt="" />
+                </div>
+                <div class="item">
+                  <img src="assets/team17.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team18.png" alt="" />
+                </div>
+                <div class="item">
+                  <img src="assets/team19.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/team20.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="whats-up-icon whatsAppcontact-us">
+          <!-- <i class="fa-brands fa-whatsapp"></i> -->
+          <img src="assets/whatsapp.svg" alt="" />
+          <div id="whatsAppLink"></div>
+        </div>
+
+        <div class="popup whatsAppcontact-us">
+          <p>تواصل عبر الواتساب</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="mt-0 mt-md-5">
+      <div class="container-fluid d-flex about-wrapper">
+        <div class="who-us-wrapper">
+          <div class="who-us d-flex flex-column">
+            <h2>من نحن</h2>
+            <p>
+              شركة سعودية تخلق التوازن بين توفير
+              <span class="text-orangr"> أفضل الكفـاءات</span>
+
+              وحلـول الأعمال المتخصصة، نقدم الاستشارات الإدارية في تطوير أعمـال
+              رأس المال البشرى, وذلك من خلال تقديم الحلول الإبداعية والتطوير
+              المستمر الذي يساهم في تحقيق الأهداف الاستراتيجية وبناء منظومة
+              متوازنة تدعم تطلعات شركاءنا وذلك عبر سياسات انتقـاء الكوادر
+              البشرية المتخصصة الإبداعية في مختلف التخصصات وفـق رؤية المملكة
+              2030
+            </p>
+
+            <p>
+              ولتحقيق هذا الطموح أسسنا
+              <span class="fw-bold"> شركة توازن </span> لتقديم حلول مناسبة
+              ومتكاملة لإدارة الموارد البشرية وتحقيق الريادة في استقطاب الكفاءات
+              المميزة من الكوادر البشرية المتخصصة والمُبدِعة في كافة التخصصات
+              الإدارية والعلمية والعملية لتحقيق مستهدفات المنشأة والتي تتمثل في
+              اربع نقاط اساسية <span class="paper-plane"> : </span>
+            </p>
+
+            <div
+              class="cards-wrapper cards-wrapper-static position-relative bg-custom"
+            >
+              <div class="cards cards-static">
+                <div class="static-cardx card-1">
+                  <div class="icon">
+                    <img src="assets/card_1.svg" alt="" />
+                  </div>
+                  <p>استشارات رأس المال البشري وإدارة التغيير</p>
+                </div>
+                <div class="static-cardx card-2">
+                  <div class="icon">
+                    <img src="assets/card-2.svg" alt="" />
+                  </div>
+                  <p>التدريب والتطوير</p>
+                </div>
+                <div class="static-cardx card-3">
+                  <div class="icon">
+                    <img src="assets/card_3.svg" alt="" />
+                  </div>
+                  <p>حلول التقييم وقياس الجدارات</p>
+                </div>
+                <!-- mb-auto -->
+                <div class="static-cardx card-4">
+                  <div class="icon">
+                    <img src="assets/Layer_1.svg" alt="" />
+                  </div>
+                  <p>إدارة عمليات الموارد البشرية</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="mt-0 mt-md-5 contact-us-navigator">
+              تواصل معنا
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="cards-wrapper cards-wrapper-animated position-relative bg-custom"
+        >
+          <div class="cards animated-cards">
+            <div class="cardx card-1 active">
+              <div class="icon">
+                <img src="assets/card_1.svg" alt="" />
+              </div>
+              <p>استشارات رأس المال البشري وإدارة التغيير</p>
+            </div>
+            <div class="cardx card-2">
+              <div class="icon">
+                <img src="assets/card-2.svg" alt="" />
+              </div>
+              <p>التدريب والتطوير</p>
+            </div>
+            <div class="cardx card-3">
+              <div class="icon">
+                <img src="assets/card_3.svg" alt="" />
+              </div>
+              <p>حلول التقييم وقياس الجدارات</p>
+            </div>
+            <!-- mb-auto -->
+            <div class="cardx card-4">
+              <div class="icon">
+                <img src="assets/Layer_1.svg" alt="" />
+              </div>
+              <p>إدارة عمليات الموارد البشرية</p>
+            </div>
+          </div>
+
+          <div class="muted-bg">
+            <img src="assets/roundedElipse.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision">
+      <div class="pt-4 py-lg-5 mt-md-5">
+        <div class="visions-container pe-lg-3 me-lg-5">
+          <div id="vision-card-1" class="vision-card vision-expanded">
+            <div class="vision-img d-flex justify-content-center">
+              <img class="static" src="assets/visionStatic.png" alt="" />
+              <img class="gif" src="assets/eye_11909639.gif" alt="" />
+            </div>
+
+            <div class="vision-card-description">
+              <div
+                class="vision-card-head d-flex align-items-center justify-content-between"
+              >
+                <h3>رؤيتنا</h3>
+                <div id="card-arrow-1" class="vision-arrow">
+                  <img class="icon" src="assets/eva_arrow-up-fill.svg" alt="" />
+                </div>
+              </div>
+              <p>
+                الريادة في استقطاب نخبة المواهب المتخصصة والإبداعية فـي مختلف
+                التخصصات العلمية والإدارية والعملية وتقديم الاستشارات وحلول
+                الأعمال في تطوير رأس المال البشري و تقديم خدمات واستشارات
+                الموارد البشرية بشكل عصري يلائم احتياجات عملائنا وشركاءنا عبر
+                سياسات واستراتيجيات تدعيم الشراكات العابرة للمؤسسات.
+              </p>
+            </div>
+          </div>
+
+          <div id="vision-card-2" class="vision-card">
+            <div class="vision-img d-flex justify-content-center">
+              <img class="static" src="assets/ourGoal.png" alt="" />
+              <img class="gif" src="assets/ourGoalGif.gif" alt="" />
+            </div>
+
+            <div class="vision-card-description">
+              <div
+                class="vision-card-head d-flex align-items-center justify-content-between"
+              >
+                <h3>رسالتنا</h3>
+                <div id="card-arrow-2" class="vision-arrow">
+                  <img class="icon" src="assets/eva_arrow-up-fill.svg" alt="" />
+                </div>
+              </div>
+              <p>
+                نسعى في توازن أن نكون في طليعة المنشآت المتخصصة في استقطاب
+                المواهب وتقديم الخدمات الاستشارية المواكبة لكافة التطورات
+                والحلول الإدارية وذلك عبر استخدام أحدث استراتيجيات الموارد
+                البشرية والتواصل الفعال لتقديم خدمات الموارد البشرية بأقل وقت
+                وتكلفة ممكنة من خلال خبراءنا المتميزين وفريقنا المُبدِع وذلك وفق
+                رؤيتنا الشاملة وسياستنا المُستدامة.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="visions-container-mobile pe-lg-3 me-lg-5">
+          <div class="vision-card">
+               <div class="row d-flex align-items-center">
+                <div class="col-3 vision-img">
+                  <img  src="assets/eye_11909639.gif" alt="" />
+                    </div>
+
+                 <div class="col-9"><h2>رؤيتنا</h2></div>
+
+             
+              
+               </div>
+               <div class="row">
+
+               <div class="descripction">
+                <p >
+                  الريادة في استقطاب نخبة المواهب المتخصصة والإبداعية فـي مختلف
+                  التخصصات العلمية والإدارية والعملية وتقديم الاستشارات وحلول
+                  الأعمال في تطوير رأس المال البشري و تقديم خدمات واستشارات
+                  الموارد البشرية بشكل عصري يلائم احتياجات عملائنا وشركاءنا عبر
+                  سياسات واستراتيجيات تدعيم الشراكات العابرة للمؤسسات.
+                </p>
+               </div>
+           
+               </div>
+          </div>
+
+
+          <div class="vision-card">
+            <div class="row d-flex align-items-center">
+             <div class="col-3 vision-img">
+               <img  src="assets/ourGoalGif.gif" alt="" />
+                 </div>
+
+              <div class="col-9"><h2>رسالتنا</h2></div>
+
+          
+           
+            </div>
+            <div class="row">
+
+            <div class="descripction">
+             <p >
+               
+              نسعى في توازن أن نكون في طليعة المنشآت المتخصصة في استقطاب
+              المواهب وتقديم الخدمات الاستشارية المواكبة لكافة التطورات
+              والحلول الإدارية وذلك عبر استخدام أحدث استراتيجيات الموارد
+              البشرية والتواصل الفعال لتقديم خدمات الموارد البشرية بأقل وقت
+              وتكلفة ممكنة من خلال خبراءنا المتميزين وفريقنا المُبدِع وذلك
+              وفق رؤيتنا الشاملة وسياستنا المُستدامة.
+            </p>
+             </p>
+            </div>
+        
+            </div>
+       </div>
+
+
+         
+        </div>
+      </div>
+    </section>
+
+    <section id="ourValues" class="position-relative">
+      <div class="custom-section-bg-left"></div>
+            <div class="container-fluid position-relative ourValues-web-view ourValues-container">
+              <div class="values-Header">
+          <div class="values-icon">
+            <img src="assets/fist-bump_16874985.gif" alt="" />
+          </div>
+          <div class="title">
+            <h3>قيمنا</h3>
+            <p>
+              التزامًا منا بقيمنا الأساسية المتمثلة في إثراء عالم الأعمال، فإننا
+              شغوفون بتقديم المساعدة لمن هم في حاجة إليها.
+            </p>
+          </div>
+             </div>
+
+              <div class="values-container">
+          <div class="value-card">
+            <span>1</span>
+            <h5>الأمانة والمصداقية</h5>
+            <p>
+              تحقيق الأمانة باختيار أفضل الخبراء للعمل ضمن فريقنا لتقديم أفضل
+              الحلول الاستشارية لتحقيق الأهداف وتطوير الأداء وتلبية احتياجات
+              العملاء بصدق وأمانة ووضوح.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <span>2</span>
+            <h5>احترام الشركاء</h5>
+            <p>
+              تقديم خدمات استشارية بمعايير عالمية تمثل قيم إضافية لإثراء وضمان
+              نجاح أعمال القطاع وذلك من خلال التواصل المستمر مع العملاء والشركاء
+              لتحقيق أقصى درجات الاحترافية في الخدمات المقدمه
+            </p>
+          </div>
+
+          <div class="value-card">
+            <span>3</span>
+            <h5>التوازن</h5>
+
+            <p>
+              مبدأ التوازن وروح الفريق الواحد الذي يسعى لتحقيق الأهداف وتطوير
+              الأداء من خلال التعاون ومشاركة شركاءنا جنبا إلى جنب لتطوير الحلول
+              سويا لضمان الاستدامة.
+            </p>
+          </div>
+
+          <div class="value-card active">
+            <span>4</span>
+            <h5>التطوير والتميز</h5>
+            <p>
+              التطوير والتحسين في الأدوات والأساليب ونظم العمل ومواكبة أحدث
+              الأساليب الفنية عالميًا.
+            </p>
+          </div>
+               </div>
+      </div>
+
+<div class="ourValues-mobile-view  container-fluid position-relative ourValues-container">
+       <div class="row">
+
+        <div class="col-2">
+          <div class="values-icon">
+            <img src="assets/fist-bump_16874985.gif" alt="" />
+          </div>
+        </div>
+
+        <div class="col-9 d-flex align-items-center">
+
+          <div class="title">
+            <h3>قيمنا</h3>
+            
+          </div>
+        </div>
+
+    
+   
+       </div>
+
+  <div class="row">
+    <p>
+      التزامًا منا بقيمنا الأساسية المتمثلة في إثراء عالم الأعمال، فإننا
+      شغوفون بتقديم المساعدة لمن هم في حاجة إليها.
+    </p>
+  </div>
+
+  <div class="values-container">
+    <div class="value-card">
+      <span>1</span>
+      <h5>الأمانة والمصداقية</h5>
+      <p>
+        تحقيق الأمانة باختيار أفضل الخبراء للعمل ضمن فريقنا لتقديم أفضل
+        الحلول الاستشارية لتحقيق الأهداف وتطوير الأداء وتلبية احتياجات
+        العملاء بصدق وأمانة ووضوح.
+      </p>
+    </div>
+
+    <div class="value-card">
+      <span>2</span>
+      <h5>احترام الشركاء</h5>
+      <p>
+        تقديم خدمات استشارية بمعايير عالمية تمثل قيم إضافية لإثراء وضمان
+        نجاح أعمال القطاع وذلك من خلال التواصل المستمر مع العملاء والشركاء
+        لتحقيق أقصى درجات الاحترافية في الخدمات المقدمه
+      </p>
+    </div>
+
+    <div class="value-card">
+      <span>3</span>
+      <h5>التوازن</h5>
+
+      <p>
+        مبدأ التوازن وروح الفريق الواحد الذي يسعى لتحقيق الأهداف وتطوير
+        الأداء من خلال التعاون ومشاركة شركاءنا جنبا إلى جنب لتطوير الحلول
+        سويا لضمان الاستدامة.
+      </p>
+    </div>
+
+    <div class="value-card active">
+      <span>4</span>
+      <h5>التطوير والتميز</h5>
+      <p>
+        التطوير والتحسين في الأدوات والأساليب ونظم العمل ومواكبة أحدث
+        الأساليب الفنية عالميًا.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+    </section>
+
+    <section id="curriculum">
+      <div
+        class="curriculum w-100 d-flex justify-content-center justify-content-sm-end align-items-center"
+      >
+        <div class="curriculum-wrapper">
+          <div class="header d-flex align-items-center position-relative">
+            <div class="icon-wrapper">
+              <img src="assets/motivation_12340736.gif" alt="" />
+            </div>
+            <h3>منهجنا</h3>
+          </div>
+
+          <p>
+            نلتزم عبر منهجنا بتوفير أفضل الخبراء في مختلف المجالات وتقديم حلول
+            فورية ومناسبة ذات جودة وقيمة منافسة بكفاءة عالية تضمن تلبية إحتياج
+            العميل.
+          </p>
+
+          <div class="curriculum-items">
+            <div
+              class="curriculum-item d-flex flex-column justify-content-center"
+            >
+              <div class="icon-wrapper">
+                <img src="assets/cru1.svg" alt="" />
+              </div>
+
+              <h5>الدراسة</h5>
+            </div>
+
+            <div
+              class="curriculum-item d-flex flex-column justify-content-center"
+            >
+              <div class="icon-wrapper">
+                <img src="assets/cru2.svg" alt="" />
+              </div>
+
+              <h5>التقييم</h5>
+            </div>
+
+            <div
+              class="curriculum-item d-flex flex-column justify-content-center"
+            >
+              <div class="icon-wrapper">
+                <img src="assets/cru3.svg" alt="" />
+              </div>
+
+              <h5>التنفيذ</h5>
+            </div>
+
+            <div
+              class="curriculum-item d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="icon-wrapper">
+                <img src="assets/cru4.svg" alt="" />
+              </div>
+
+              <h5>الإلتزام</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="position-relative">
+      <div class="custom-section-bg-semi-center"></div>
+
+      <div class="services">
+        <div class="header d-flex align-items-center position-relative">
+          <div class="icon-wrapper">
+            <img src="assets/servicesIcon.svg" alt="" />
+          </div>
+          <h3>خدماتنا</h3>
+        </div>
+
+        <div class="services-container row g-5">
+          <!-- service-1 content -->
+
+          <div id="service-content-1" class="col-lg-6 ps-lg-5 service-content">
+            <div class="service-list-wrapper">
+              <h4>استشارات رأس المال البشري وإدارة التغير</h4>
+              <p>
+                في توازن نسعى على تطوير خلق استدامة إيجابية مستمرة. وذلك عبر
+                أفضل الممارسات الملائمة التي تتناول التحديات التي تواجه منشأتك
+                ومنها:
+              </p>
+              <ul>
+                <li>
+                  تقديم الاستشارات المتكاملة للموارد البشرية من خلال مبادرات
+                  قصيرة ومتوسطة وطويلة المدى.
+                </li>
+                <li>
+                  إعداد وتطوير إستراتيجية شاملة ومتكاملة لتنمية الموارد البشرية
+                  لدعم الشركاء. إعداد وتطوير الهياكل التنظيمية المتنوعة داخل
+                  المنشأة.
+                </li>
+                <li>إعداد وتطوير هيكل الدرجات والمزايا وسلم الرواتب.</li>
+
+                <li>إعداد وتطوير خطط التعاقب الوظيفي ......</li>
+              </ul>
+
+              <div class="show-more">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#servicePopup-1"
+                >
+                  رؤية المزيد
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- service-2 content -->
+
+          <div
+            id="service-content-2"
+            class="col-lg-6 ps-lg-5 d-none service-content"
+          >
+            <div class="service-list-wrapper">
+              <h4>التدريب والتطوير</h4>
+
+              <p>
+                نسعى في توازن الى تقديم أفضل حلول التدريب والتطوير التي تساعد في
+                تطوير قدرات ومهارات الموارد البشرية وذلك من خلال تقديم دورات
+                تدريبية تفاعلية ذات طابع تطبيقي وعلمي تساهم في رفع وصقل خبرات
+                الموظفين وإكسابهم المهارة والمعرفة الكافية لأداء مهامهم بكفاءة
+                وفاعلية ومن أنواع هذا التدريب:
+              </p>
+
+              <ul>
+                <li>
+                  التدريب التقني والذي يشتمل على التدريب على أنظمة تكنولوجيا
+                  المعلومات وأدوات التكنولوجيا المختلفة لتسريع عملية التشغيل
+                  داخل كافة قطاعات الأعمال والقطاعات الأخرى داخل المنشأة.
+                </li>
+                <li>
+                  التدريب الفني والذي يشتمل على التدريب في كافة الشؤون والأمور
+                  التي تختص بها كل وظيفة وذلك على يد عدد من الكوادر القيادية
+                  المتخصصة في التدريب الفني والمهني.
+                </li>
+              </ul>
+
+              <div class="show-more">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#servicePopup-2"
+                >
+                  رؤية المزيد
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- service-3 content -->
+
+          <div
+            id="service-content-3"
+            class="col-lg-6 ps-lg-5 d-none service-content"
+          >
+            <div class="service-list-wrapper">
+              <h4>حلول التقييم وقياس الجـدارات</h4>
+
+              <p>
+                سواء أكنت بصدد التوظيف أو الترقية أو تحديد الاحتياج التدريبي، او
+                بناء برامج التطوير الخاصة، أو إعادة الهيكلة أو قياس الجدارات
+                الغرض قياس الأداء تقدم شركة توازن باقة واسعة وثرية من خدمات
+                التقييم من خلال توفير الادوات السلوكية و المعرفية حيث تستند
+                خدمات التقييم على أدوات معتمدة من جهات علمية ومرجعية معتبرة
+                عالميا وعلى أفضل الممارسات المتبعة في تنفيذ خدمات التقييم السيكو
+                متري والفني وتنفيذ مراكز التقييم وتشمل ما يلي:
+              </p>
+
+              <ul>
+                <li>
+                  تحديد المتطلبات السلوكية والمهارية ( الكفاءات والجدارات
+                  للوظائف المستهدفة )
+                </li>
+                <li>قياس الجدارات السلوكية والشخصية</li>
+                <li>قياس القدرات العامة</li>
+
+                <li>الذكاء العاطفي</li>
+              </ul>
+
+              <div class="show-more">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#servicePopup-3"
+                >
+                  رؤية المزيد
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- service-4 content -->
+
+          <div
+            id="service-content-4"
+            class="col-lg-6 ps-lg-5 d-none service-content"
+          >
+            <div class="service-list-wrapper">
+              <h4>إدارة عمليات الموارد البشريه</h4>
+
+              <p>
+                في توازن نقدم الخدمات التي تساعد على استمرارية العمل وتطبيق
+                الأنظمة والقوانين بكل احترافية دون الوقوع في الأخطاء حيث نقدم
+                الخدمات الآتية.
+              </p>
+
+              <ul>
+                <li>
+                  <span class="fw-bold">الإعداد:</span> يتضمن الإعداد القيام
+                  بإجراءات التقييم المصممة لمعرفة ممارسات العلاقات الحكومية
+                  الحالية من جانب العميل وتحديد الفجوات التي تهدف خدمتنا إلى
+                  سدّها.
+                </li>
+                <li>
+                  <span class="fw-bold">إدارة بيانات الموظفين:</span> تساعد
+                  خدمتنا على إدارة بيانات الموظفين بفعالية, مما يضمن تخزينها
+                  وتنظيمها واسترجاعها بشكل آمن تمكنك هذه الخدمة تحديدًا من
+                  التركيز على المبادرات الإستراتيجية التي تضيف قيمة كبيرة
+                  للمنشأة.
+                </li>
+                <li>
+                  <span class="fw-bold">إدارة شؤون الموظفين: </span> تتميز شركة
+                  توازن بخدماتها الشاملة التي تغطي جميع الجوانب التعاقدية
+                  للموظفين ومزاياهم الإضافية, كما تكمن خبرتها في إدارة الأعمال
+                  الورقية والمهام الإدارية بكفاءة واحترافية مما يضمن سير العمل
+                  بالشكل المطلوب.
+                </li>
+              </ul>
+
+              <div class="show-more">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#servicePopup-4"
+                >
+                  رؤية المزيد
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- services-nav -->
+
+          <div class="col-lg-6 service-nav">
+            <div class="service-img-container position-relative">
+              <img class="main-image" src="assets/serviceImg.png" alt="" />
+
+              <div class="upper-img">
+                <img src="assets/upperImgNew.png" alt="" />
+              </div>
+
+              <div class="services-widgets-container position-absolute w-100">
+                <div id="service-1" class="service-widget active">
+                  <span class="service-number">1 </span>
+
+                  <h6>استشارات رأس المال البشري وإدارة التغير</h6>
+                </div>
+
+                <div id="service-2" class="service-widget">
+                  <span> 2 </span>
+
+                  <h6>التدريب والتطوير</h6>
+                </div>
+
+                <div id="service-3" class="service-widget mb-auto">
+                  <span> 3 </span>
+
+                  <h6>حلول التقييم وقياس الجـدارات</h6>
+                </div>
+
+                <div id="service-4" class="service-widget mb-auto">
+                  <span> 4 </span>
+
+                  <h6>إدارة عمليات الموارد البشريه</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="actions w-lg-50">
+          <h4>يمكنك تنزيل الملف التعريفي او التواصل معنا</h4>
+          <div class="services-buttons">
+            <button id="download-pdf" class="download">
+              <span> </span> تنزيل الملف التعريفي
+            </button>
+
+            <button class="contact-us contact-us-navigator">تواصل معنا</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal structure  service 1-->
+      <div
+        class="modal fade"
+        id="servicePopup-1"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="popup-header-info">
+                <span>1</span>
+                <h3>استشارات رأس المال البشري وإدارة التغير</h3>
+                <p>
+                  في توازن نسعى على تطوير خلق استدامة إيجابية مستمرة. وذلك عبر
+                  أفضل الممارسات الملائمة التي تتناول التحصيات التي تواجه منشأتك
+                  ومنها:
+                </p>
+              </div>
+
+              <div class="popup-header-image">
+                <img src="assets/homeImg.png" alt="" />
+              </div>
+            </div>
+
+            <div class="modal-body">
+              <ul>
+                <li>
+                  تقديم الاستشارات المتكاملة للموارد البشرية من خلال مبادرات
+                  قصيرة ومتوسطة وطويلة المدى.
+                </li>
+                <li>
+                  إعداد وتطوير إستراتيجية شاملة ومتكاملة لتنمية الموارد البشرية
+                  لدعم الشركاء. إعداد وتطوير الهياكل التنظيمية المتنوعة داخل
+                  المنشأة.
+                </li>
+                <li>إعداد وتطوير هيكل الدرجات والمزايا وسلم الرواتب.</li>
+
+                <li>إعداد وتطوير خطط التعاقب الوظيفي</li>
+                <li>
+                  إعداد وتطوير إدارة الأداء الوظيفي في المنشأة لتقييم أداء
+                  الموظفين.
+                </li>
+                <li>
+                  إعداد وتطوير دليل معلوماتي شامل ومتكامل عن القوانين العامة
+                  الخاصة بالعمل وفق النظام العمل.
+                </li>
+                <li>إعداد وتطوير دليل سياسات وإجراءات الموارد البشرية.</li>
+                <li>
+                  تصميم النماذج التشغيلية والبدء في تفعيلها. تخطيط القوى العاملة
+                  وتحديد احتياج المنشاة.
+                </li>
+
+                <li>إعداد وتطوير ميزانية الموارد البشرية.</li>
+                <li>إعداد وتطوير مصفوفة الصلاحيات للموارد البشرية.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal structure  service 2-->
+      <div
+        class="modal fade"
+        id="servicePopup-2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="popup-header-info">
+                <span>2</span>
+                <h3>التدريب والتطوير</h3>
+                <p>
+                  نسعى في توازن الى تقديم أفضل حلول التدريب والتطوير التي تساعد
+                  في تطوير قدرات ومهارات الموارد البشرية وذلك من خلال تقديم
+                  دورات تدريبية تفاعلية ذات طابع تطبيقي وعلمي تساهم في رفع وصقل
+                  خبرات الموظفين وإكسابهم المهارة والمعرفة الكافية لأداء مهامهم
+                  بكفاءة وفاعلية ومن أنواع هذا التدريب:
+                </p>
+              </div>
+
+              <div class="popup-header-image">
+                <img src="assets/homeImg.png" alt="" />
+              </div>
+            </div>
+
+            <div class="modal-body">
+              <ul>
+                <li>
+                  التدريب التقني والذي يشتمل على التدريب على أنظمة تكنولوجيا
+                  المعلومات وأدوات التكنولوجيا المختلفة لتسريع عملية التشغيل
+                  داخل كافة قطاعات الأعمال والقطاعات الأخرى داخل المنشأة.
+                </li>
+                <li>
+                  التدريب الفني والذي يشتمل على التدريب في كافة الشؤون والأمور
+                  التي تختص بها كل وظيفة وذلك على يد عدد من الكوادر القيادية
+                  المتخصصة في التدريب الفني والمهني.
+                </li>
+                <li>
+                  التدريب الإداري وذلك للكفاءات الإدارية والكوادر القيادية
+                  والمديرين في كافة القطاعات التدريبية
+                </li>
+                <li>
+                  تدريب القيادات التنفيذية على كافة السياسات والأنظمة الشاملة
+                  المتكاملة في كل القطاعات التنفيذية.
+                </li>
+                <li>التدريب والتعليم الرقمي</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal structure  service 3-->
+      <div
+        class="modal fade"
+        id="servicePopup-3"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="popup-header-info">
+                <span>3</span>
+                <h3>حلول التقييم وقياس الجـدارات</h3>
+                <p>
+                  سواء أكنت بصدد التوظيف أو الترقية أو تحديد الاحتياج التدريبي،
+                  او بناء برامج التطوير الخاصة، أو إعادة الهيكلة أو قياس
+                  الجدارات الغرض قياس الأداء تقدم شركة توازن باقة واسعة وثرية من
+                  خدمات التقييم من خلال توفير الادوات السلوكية و المعرفية حيث
+                  تستند خدمات التقييم على أدوات معتمدة من جهات علمية ومرجعية
+                  معتبرة عالميا وعلى أفضل الممارسات المتبعة في تنفيذ خدمات
+                  التقييم السيكو متري والفني وتنفيذ مراكز التقييم وتشمل ما يلي:
+                </p>
+              </div>
+
+              <div class="popup-header-image">
+                <img src="assets/homeImg.png" alt="" />
+              </div>
+            </div>
+
+            <div class="modal-body">
+              <ul>
+                <li>
+                  تحديد المتطلبات السلوكية والمهارية ( الكفاءات والجدارات
+                  للوظائف المستهدفة
+                </li>
+                <li>قياس الموائمة الوظيفية ( الموظف مقابل الوظيفة)</li>
+                <li>قياس الجدارات السلوكية والشخصية</li>
+                <li>قياس القدرات العامة</li>
+                <li>الذكاء العاطفي</li>
+                <li>القدرات القيادية الكامنة</li>
+                <li>قياس الاندماج ( الارتباط) الوظيفي</li>
+                <li>تقييم الجدارات ٣٦٠</li>
+                <li>قياس المهارات</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal structure  service 4-->
+      <div
+        class="modal fade"
+        id="servicePopup-4"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="popup-header-info">
+                <span>4</span>
+                <h3>إدارة عمليات الموارد البشريه</h3>
+                <p>
+                  في توازن نقدم الخدمات التي تساعد على استمرارية العمل وتطبيق
+                  الأنظمة والقوانين بكل احترافية دون الوقوع في الأخطاء حيث نقدم
+                  الخدمات الآتية.
+                </p>
+              </div>
+
+              <div class="popup-header-image">
+                <img src="assets/homeImg.png" alt="" />
+              </div>
+            </div>
+
+            <div class="modal-body">
+              <ul>
+                <li>
+                  <span class="fw-bold">الإعداد:</span> يتضمن الإعداد القيام
+                  بإجراءات التقييم المصممة لمعرفة ممارسات العلاقات الحكومية
+                  الحالية من جانب العميل وتحديد الفجوات التي تهدف خدمتنا إلى
+                  سدّها.
+                </li>
+                <li>
+                  <span class="fw-bold">إدارة بيانات الموظفين:</span> تساعد
+                  خدمتنا على إدارة بيانات الموظفين بفعالية, مما يضمن تخزينها
+                  وتنظيمها واسترجاعها بشكل آمن تمكنك هذه الخدمة تحديدًا من
+                  التركيز على المبادرات الإستراتيجية التي تضيف قيمة كبيرة
+                  للمنشأة.
+                </li>
+                <li>
+                  <span class="fw-bold">إدارة شؤون الموظفين: </span> تتميز شركة
+                  توازن بخدماتها الشاملة التي تغطي جميع الجوانب التعاقدية
+                  للموظفين ومزاياهم الإضافية, كما تكمن خبرتها في إدارة الأعمال
+                  الورقية والمهام الإدارية بكفاءة واحترافية مما يضمن سير العمل
+                  بالشكل المطلوب.
+                </li>
+
+                <li>
+                  <span class="fw-bold"> إدارة العلاقات الحكومية: </span> تشمل
+                  خدمتنا إنشاء وإدارة جميع الحسابات والملفات المتعلقة بالعميل
+                  عبر مختلف البوابات والأنظمة الحكومية.
+                </li>
+
+                <li>
+                  <span class="fw-bold">إدارة الرواتب:</span> في خدمات إدارة
+                  الرواتب, نوفر لشركائنا حلولًا شاملة تجمع بين الدقة والأمان
+                  والخبرة مع القدرة على التوسع في أعمالهم. كفريق متخصص في إدارة
+                  الرواتب, نضمن عناية دقيقة بكل التفاصيل، بدءًا من تسجيل بيانات
+                  الموظفين وحساب الرواتب والأجور وصولا إلى معالجة الحوافز
+                  والخصومات والدفعات المتكررة كما نوفر تغطية شاملة لكافة أنواع
+                  التقارير القياسية المتعلقة بالرواتب.
+                </li>
+
+                <li>
+                  <span class="fw-bold">الاستقطاب و التوظيف:</span> انطلاقًا من
+                  أهمية العنصر البشري في بناء وتحقيق أهداف المنشأة نلتزم في
+                  توازن بإستقطاب المواهب التنفيذية بإتباع منهج دقيق وفهم شامل
+                  لتركيبة بيئة العمل في المنشآة وذلك بفهم المتطلبات وإجراء
+                  المقابلات الخاصة بالتفاوض والتعيين الفعال حيث نقدم الخدمات
+                  الآتية:
+
+                  <ol>
+                    <li>استقطاب الخبراء الدوليين والمحليين</li>
+                    <li>استقطاب المدراء التنفيذيين</li>
+                    <li>استقطاب الكفاءات الإدارية من أجل تطوير الأداء</li>
+
+                    <li>
+                      استقطاب الكفاءات التخصصية من أجل إدارة قطاعات الأعمال
+                    </li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ourTeam" class="position-relative">
+      <div class="custom-section-bg-left"></div>
+
+      <div class="container-fluid team-wrapper">
+        <h3>خبرات فريق العمل</h3>
+        <p>
+          لدينا في توازن عدد من العملاء الذين تربطنا بهم شراكات طويلة الأمد
+          ونعمل معهم في توفير قواعد بيانات متكاملة وشاملة لقطاعات التوظيف
+          وقطاعات الاستشارات والأعمال.
+        </p>
+
+        <div class="logos-container">
+          <div class="logo-content">
+            <img src="assets/team1.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team2.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team3.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team4.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team5.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team6.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team7new.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team8.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team9.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team10.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team11.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team12.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team13.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team14.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team15.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team16.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team17.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team18.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team19.png" alt="" />
+          </div>
+
+          <div class="logo-content">
+            <img src="assets/team20.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-us" class="contact-us-section">
+      <div class="contact-content">
+        <div class="right-side">
+          <div class="img-wrapper">
+            <img src="assets/sms.gif" alt="" />
+          </div>
+          <p>كن على تواصل</p>
+          <h5>تواصل معنا الأن</h5>
+
+          <p>
+            يمكنك طلب موعد لتلتقي فريق توازن وتعرف اكثر عن الخدمات وكيف نستطيع
+            ان نساعدك لإدارة مهامك الإدارية في شركتك
+          </p>
+        </div>
+
+        <div class="left-side">
+          <form class="form">
+            <!-- Name -->
+            <div class="mb-3">
+              <label for="name" class="form-label required">الإسم</label>
+              <input
+                type="text"
+                required
+                class="form-control footer"
+                id="name"
+                placeholder="برجاء ادخال الإسم "
+              />
+              <p class="text-danger fw-light fs-6 mt-1" id="name-error"></p>
+            </div>
+
+            <!--Job Title -->
+            <div class="mb-3">
+              <label for="name" class="form-label">المسمى الوظيفي</label>
+              <input
+                type="text"
+                class="form-control footer"
+                id="job-title"
+                placeholder="برجاء ادخال المسمى الوظيفي "
+              />
+            </div>
+
+
+            <!-- Phone Number -->
+            <div class="mb-3 position-relative">
+              <label for="phone" class="form-label required">رقم الهاتف</label>
+              <div class="input-group countries">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="phone"
+                  placeholder="برجاء إدخال رقم الهاتف مثال: 65485-5423"
+                />
+
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  id="countryCode"
+                  aria-expanded="false"
+                >
+                  <img id="countryFlag" src="assets/ksaFlag.png" alt="" />
+                  <span id="selectedCountryCode">+966</span>
+                </button>
+                <ul class="dropdown-menu" id="countryCodeList">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="assets/ksaFlag.png" alt="" /> +966
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="assets/eg.svg" alt="" /> +20
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img
+                        src="https://flagcdn.com/16x12/ae.png"
+                        alt="UAE Flag"
+                      />
+                      +971
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <p
+                class="text-danger fw-light mt-1 fs-6 fw-light"
+                id="phone-error"
+              ></p>
+            </div>
+
+            <!-- Email Address -->
+            <div class="mb-3">
+              <label for="email" class="form-label required">البريد الإلكتروني</label>
+              <input
+                type="text"
+                class="form-control"
+                required
+                id="email"
+                placeholder="Example@Ex.com مثال _ برجاء ادخال البريد الإلكتروني"
+              />
+              <p class="text-danger fw-light fs-6 mt-1" id="email-error"></p>
+            </div>
+
+            <!-- Subject -->
+            <div class="mb-3">
+              <label for="subject" class="form-label">الموضوع</label>
+              <textarea
+                class="form-control"
+                id="subject"
+                rows="10"
+                placeholder="مثال : نريد توضيح لخدمات توازن"
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-grid">
+              <button
+                type="submit"
+                id="submitBtn"
+                class="btn submit-btn text-white"
+              >
+                تواصل معنا
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid px-md-4 mt-md-3">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-3 col-md-8 footer-sec-1">
+            <div class="logo-links">
+              <div class="footer-logo-wrapper">
+                <img src="assets/2024-08-14_100304 1.png" alt="" />
+              </div>
+
+              <div class="email-links">
+                <p>
+                  شركة سعودية تخلق التوازن بين توفير أفضل الكفـاءات وحلـول
+                  الأعمال المتخصصة، نقدم الاستشارات الإدارية في تطوير أعمـال رأس
+                  المال البشر, وذلك من خلال تقديم الحلول الإبداعية والتطوير
+                  المستمر الذي يساهم في تحقيق الأهداف الاستراتيجية وبناء منظومة
+                  متوازنة تدعم تطلعات شركاءنا وذلك عبر سياسات انتقـاء الكوادر
+                  البشرية المتخصصة الإبداعية في مختلف التخصصات وفـق رؤية المملكة
+                  2030
+                </p>
+
+                <div class="info">
+                  <div class="icon">
+                    <img src="assets/inbox.svg" alt="" />
+                  </div>
+                  <a class="notUnderlined" mailto="info@twznsa.com" href=""
+                    >info@twznsa.com</a
+                  >
+                </div>
+                <div class="info">
+                  <div class="icon">
+                    <img src="assets/mobileicon.svg" alt="" />
+                  </div>
+                  <a href="" dir="ltr" telephoneto="+20011 488 6855"
+                    >011 488 6855</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-social-icons">
+              <div class="icon-warpper linkedin">
+                <img src="assets/linkedin_symbol.svg.svg" alt="" />
+              </div>
+
+              <div class="icon-warpper spaceX">
+                <img src="assets/x_logo.svg.svg" alt="" />
+              </div>
+
+             
+            </div>
+          </div>
+
+          <div class="col-lg-9 row d-flex align-items-baseline pe-md-5 pt-md-5">
+            <div class="col-md-3 footer-sec-2">
+              <h5>روابط سريعة</h5>
+
+              <a href="#home">الرئيسية</a>
+              <a href="#about">عن توازن</a>
+              <a href="#curriculum">منهجنا</a>
+              <a href="#services">خدماتنا</a>
+              <a href="#ourTeam">عملائنا</a>
+            </div>
+
+            <div class="col-md-4 footer-sec-2">
+              <h5>خدماتنا</h5>
+
+              <a href="#services" class="servie-1-footer"
+                >استشارات رأس المال البشري وإدارة التغير
+              </a>
+              <a href="#services" class="servie-2-footer">التدريب والتطوير </a>
+              <a href="#services" class="servie-3-footer"
+                >حلول التقييم وقياس الجدارات</a
+              >
+              <a href="#services" class="servie-4-footer"
+                >إدارة عمليات الموارد البشرية</a
+              >
+            </div>
+
+            <div class="col-md-5 map">
+              <div class="info">
+                <div class="icon">
+                  <img src="assets/location-time_16104620 1.svg" alt="" />
+                </div>
+
+                <p>السعودية _ الرياض</p>
+              </div>
+              <div class="info">
+                <div class="icon">
+                  <img src="assets/map_11201870 1.svg" alt="" />
+                </div>
+                <p>موقعنا على الخريطه</p>
+              </div>
+              <div class="map-wrapper position-relative">
+                <img src="assets/mapImage.png" alt="" />
+
+                <div class="visit-Us">
+                  <a href="" class="">تفقد موقعنا </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyRights d-flex align-items-center justify-content-center">
+      <p>جميع الحقوق محفوظة © 2024 Exab.SA</p>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+      integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- owl-carousel -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
