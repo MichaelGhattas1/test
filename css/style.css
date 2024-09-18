@@ -3284,11 +3284,10 @@ display: none;  }
 
   }
 p {
-  line-height: 36px !important;
-  padding-inline: 10px !important;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  line-height: unset !important;
+  font-size: unset !important;
+}
+
 }
   .row>* {
     padding-left: 0px !important;
