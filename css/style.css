@@ -2742,6 +2742,7 @@ display: none;  }
 p {
   line-height: 36px !important;
   padding-inline: 10px !important;
+  hyphens: auto;
 }
   .row>* {
     padding-left: 0px !important;
