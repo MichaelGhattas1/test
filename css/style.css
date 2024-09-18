@@ -3657,7 +3657,8 @@ padding: 0px;
      }
 
      .descripction{
-      padding-inline: 20px !important;
+      padding-inline: 30px !important;
+      background-color: #6c737f;
       p{
         line-height: 36px !important;
         text-align: justify;
@@ -3931,7 +3932,7 @@ h3 {
 }
 
 
-}
+
 
 @media (max-width: 390px) {
 
