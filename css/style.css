@@ -3078,12 +3078,15 @@ padding: 0px;
      }
 
      .descripction{
+      direction: rtl;
       padding-inline: 20px !important;
       background-color: #6c737f;
       p{
+        direction: rtl;
         line-height: 36px !important;
         text-align: justify;
-        font-size: 15px !important;
+        font-size: 14px !important;
+        background-color: yellow;
       }
      }
   }
