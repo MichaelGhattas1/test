@@ -3315,9 +3315,9 @@ p { margin: 0px !important;
 
 p.test-text {
   direction: rtl !important;
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
-  text-align: justify;
+  text-align: justify; */
   text-align-last: right;
   word-break: break-word;
   hyphens: auto;
