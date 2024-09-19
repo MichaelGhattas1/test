@@ -3309,7 +3309,7 @@ p { margin: 0px !important;
 }
 
 p.test-text {
-  direction: rtl;
+  direction: rtl !important ;
   text-align: justify;
   text-align-last: right;
   -moz-text-align-last: right; /* For Firefox */
