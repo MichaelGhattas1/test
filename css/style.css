@@ -3310,13 +3310,14 @@ p { margin: 0px !important;
 
 
 p.test-text {
+  display: inline-block !important;
   direction: rtl !important;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   text-align: justify;
   gap: 0;
   text-align-last: right;
-  hyphens: auto;
+  hyphens: auto; 
   line-height: 1.8 !important;
   background: #ee8727;
 }
