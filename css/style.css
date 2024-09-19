@@ -3341,7 +3341,7 @@ p.test-text {
 
   @supports (-webkit-overflow-scrolling: touch) {
     p {
-        line-height: 1.8  !important;                /* Line height for iOS devices */
+        line-height: 2  !important;                /* Line height for iOS devices */
     }
   }
   background: red;
