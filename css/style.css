@@ -3319,6 +3319,13 @@ p { margin: 0px !important;
   min-width: 135px;
 }
 
+
+@supports (-webkit-overflow-scrolling: touch) {
+  p {
+      line-height: 1.8!important;                /* Line height for iOS devices */
+  }
+}
+
 }
 
 @media (max-width: 390px) {
