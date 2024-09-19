@@ -3344,11 +3344,12 @@ p.test-text {
   hyphens: auto; 
   line-height: 1.8!important;
 
-  @supports (-webkit-overflow-scrolling: touch) {
-    p {
-        line-height: 2  !important;                /* Line height for iOS devices */
-    }
-  }
+
   background: blueviolet;
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  p {
+      line-height: 2  !important;                /* Line height for iOS devices */
+  }
+}
