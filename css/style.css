@@ -1,13 +1,9 @@
 * {
-  font-family: "Alexandria";
+  font-family: Cairo;
   box-sizing: border-box !important;
 }
 html {
   scroll-behavior: smooth;
-}
-
-p {
-   line-height: 40px !important;
 }
 .text-orangr {
   color: rgba(238, 135, 39, 1) !important;
@@ -276,7 +272,7 @@ ul.navbar-nav {
 }
 
 .title h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   /* line-height: 131.18px; */
 }
@@ -379,7 +375,7 @@ ul.navbar-nav {
   height: 30px;
 }
 .company-info {
-  gap: 20px;
+  gap: 40px;
 margin-bottom: 30px;
   width: 50%;
   order: 1;
@@ -516,7 +512,7 @@ margin-bottom: 30px;
   min-height: 60px;
   font-size: 13px;
   font-weight: 700;
-  line-height: 28px !important;
+  line-height: 28px;
   text-align: center;
 }
 
@@ -558,7 +554,7 @@ margin-bottom: 30px;
 }
 
 .cardx.active p {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -633,7 +629,7 @@ margin-bottom: 30px;
   text-align: justify;
   font-size: 22px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 30px;
 }
 
 .paper-plane {
@@ -672,7 +668,7 @@ margin-bottom: 30px;
 
 #vision {
   padding: 0% 7%;
-  background-image: url("../assets/newbg-1.png");
+  background-image: url("../assets/visionBg.png");
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -888,7 +884,7 @@ margin-bottom: 30px;
   background-repeat: round;
 }
 .ourValues-container .values-container .value-card h5 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 33.48px;
   letter-spacing: -0.04em;
@@ -945,7 +941,7 @@ margin-bottom: 30px;
 /* curriculum */
 
 .curriculum {
-  background-image: url("../assets/newbg-2.png");
+  background-image: url("../assets/newapproachBg.png");
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -962,7 +958,7 @@ margin-bottom: 30px;
   padding-bottom: 50px;
 }
 .curriculum .curriculum-wrapper p {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 44px;
   text-align: justify;
@@ -1160,8 +1156,8 @@ margin-bottom: 30px;
 .services .services-container .service-list-wrapper p {
   opacity: 80%;
   color: #1b1e1d;
-  font-family: "Alexandria";
-  font-size: 22px;
+  font-family: Cairo;
+  font-size: 24px;
   font-weight: 400;
   line-height: 37.9px;
   text-align: justify;
@@ -1179,7 +1175,7 @@ margin-bottom: 30px;
 }
 .services .services-container .service-list-wrapper ul li {
   opacity: 80%;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 37px;
   text-align: justify;
@@ -1344,7 +1340,7 @@ margin-bottom: 30px;
 }
 .services .actions h4 {
   color: #12364f;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 52px;
 }
@@ -1355,7 +1351,7 @@ margin-bottom: 30px;
 }
 
 .services .actions .services-buttons .download {
-  font-size: 16px;
+  font-size: 20px;
   background-color: transparent;
   padding: 10px 35px;
   font-weight: 700;
@@ -1391,7 +1387,7 @@ margin-bottom: 30px;
   background-color: #ee8727;
   border: 0;
   outline: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 37.48px;
   text-align: center;
@@ -1603,7 +1599,7 @@ margin-bottom: 30px;
   h3 {
     position: relative;
     color: #12364f;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 89.95px;
 
@@ -1636,7 +1632,7 @@ margin-bottom: 30px;
 
   p {
     color: #1b1e1d;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 52.12px;
     text-align: justify;
@@ -1708,8 +1704,8 @@ margin-bottom: 30px;
       }
       h5 {
         margin: 0;
-        font-family: "Alexandria";
-        font-size: 38px;
+        font-family: Cairo;
+        font-size: 50px;
         font-weight: 700;
         line-height: 90px;
         text-align: justify;
@@ -1840,10 +1836,10 @@ footer {
       .email-links {
         p {
           color: #fff;
-          text-align: justify;
+          text-align: right;
           font-size: 12px;
           font-weight: 400;
-          line-height: 24px !important;
+          line-height: 18px;
         }
         .info {
           display: flex;
@@ -1897,14 +1893,14 @@ footer {
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      line-height: 36px !important;
+      line-height: 26px;
     }
 
     a {
       color: #fff;
       text-align: right;
-      font-family: "Alexandria";
-      font-size: 14px;
+      font-family: Cairo;
+      font-size: 16px;
       font-style: normal;
       text-decoration: none;
       font-weight: 400;
@@ -2723,11 +2719,8 @@ display: none;  }
  */
 
 @media (max-width: 576px) {
-  *{
-    font-family: 'cairo';
-  }
 
-  h1 , h2 , h3 ,h4 ,h5 ,h6 , p , li   {
+  h1 , h2 , h3 ,h4 ,h5 ,h6 , p , li ,button  {
 
     font-size: unset !important;
     line-height: unset !important;
@@ -2736,28 +2729,9 @@ display: none;  }
 
   }
 
-  button {
-    line-height: unset !important;
-    margin: 0 !important;
-    font-size: 14px !important;
-
-  }
-p {
-  direction: rtl ;
-  line-height: unset !important;
-  text-align: justify;
-  text-align-last:right; 
-
-}
-  /* .row>* {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  } */
-
-  .who-us p { 
-    padding: 0px 10px;
-    line-height: 36px !important;
-
+  .row>* {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .services .service-img-container .services-widgets-container .service-widget {
@@ -2854,7 +2828,6 @@ img {
 
   footer .footer-sec-1 .logo-links .email-links p {
     text-align: justify; 
-    line-height: 35px !important;
   }
 
   .curriculum .curriculum-wrapper .header::after {
@@ -2932,7 +2905,6 @@ img {
   .title p {
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px !important;
     width: 100%;
     text-align: justify;
   }
@@ -3014,7 +2986,7 @@ padding: 0px;
         color: #fff;
         font-size: 13px !important;
         font-weight: 500;
-        line-height: 24px !important;
+        line-height: 28px;
         text-align: center;
       }
 
@@ -3046,7 +3018,7 @@ padding: 0px;
 }
 
 #vision {
-  padding: 1rem 2rem;
+  padding: 3% 5%;
 }
 
 .visions-container{
@@ -3086,17 +3058,10 @@ padding: 0px;
      }
 
      .descripction{
-      direction: rtl;
       padding-inline: 20px !important;
-      background-color: #8b0546;
       p{
-        direction: ltr;
-        line-height: 36px !important;
-        text-align:justify;
-        font-size: 12px !important;
-        letter-spacing: .5px;
-        color: black;
-        background-color: yellow;
+        text-align: justify;
+        font-size: 15px !important;
       }
      }
   }
@@ -3311,7 +3276,7 @@ footer .footer-sec-2 {
 .email-links
 .info
 a { 
-  min-width: 140px;
+  min-width: 125px;
 }
 
   footer
@@ -3329,16 +3294,8 @@ footer
 .map
 .info
 p { margin: 0px !important; 
-  min-width: 150px;
-  font-weight: 400;
-  font-size: 13px !important;
+  min-width: 135px;
 }
-
-.team-wrapper
-h3 {
-  font-size: 24px !important;
-}
-
 
 }
 
@@ -3349,16 +3306,4 @@ h3 {
     max-width: 130px; 
   }
 
-}
-
-.test-text {
-  direction: rtl;
-  padding: 1rem;
-  text-align: justify;
-}
-
-p.test-text {
-  direction: rtl;
-  padding: 1rem;
-  text-align: justify;
 }
