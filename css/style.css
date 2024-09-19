@@ -2745,12 +2745,15 @@ display: none;  }
   @supports (-webkit-overflow-scrolling: touch) {
     p {
       direction: rtl;
-        line-height: 1.8em !important;   /* Line height for iOS devices */
+      -webkit-box-direction: reverse;
+        line-height: 1.8 !important; 
+          /* Line height for iOS devices */
     text-align: justify !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-weight: 300;
     -webkit-text-align: justify !important;
-    background-color: rgb(20, 211, 103) !important;
+    align-content: flex-end;
+    background-color: rgb(149, 141, 222) !important;
       }
   }
   .row>* {
