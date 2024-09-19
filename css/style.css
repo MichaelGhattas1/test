@@ -3308,6 +3308,10 @@ p { margin: 0px !important;
 
 }
 
-.test-text {
+p.test-text {
+  direction: rtl;
   text-align: justify;
+  text-align-last: right;
+  -moz-text-align-last: right; /* For Firefox */
+  -webkit-text-align-last: right
 }
