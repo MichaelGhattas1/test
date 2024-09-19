@@ -2731,6 +2731,7 @@ display: none;  }
 
   p{
     -webkit-text-align: justify;
+    white-space: pre-line !important ;
 
   }
 
@@ -3323,7 +3324,10 @@ p { margin: 0px !important;
 @supports (-webkit-overflow-scrolling: touch) {
   p {
       line-height: 1.8!important;                /* Line height for iOS devices */
-  }
+  
+  -webkit-text-size-adjust: 1.4 !important;
+  
+    }
 }
 
 }
