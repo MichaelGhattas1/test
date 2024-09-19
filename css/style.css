@@ -3307,3 +3307,7 @@ p { margin: 0px !important;
   }
 
 }
+
+.test-text {
+  text-align: justify;
+}
