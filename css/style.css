@@ -3311,6 +3311,7 @@ p { margin: 0px !important;
 p.test-text {
   direction: rtl !important ;
   text-align: justify;
+  unicode-bidi: plaintext;
   text-align-last: right;
   -moz-text-align-last: right; /* For Firefox */
   -webkit-text-align-last: right
