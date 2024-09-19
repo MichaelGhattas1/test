@@ -3313,7 +3313,7 @@ p.test-text {
   display: inline-block !important;
   direction: rtl !important;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   text-align: justify;
   gap: 0;
   text-align-last: right;
