@@ -2740,10 +2740,10 @@ display: none;  }
 
   }
 p {
-  direction: ltr;
+  direction: rtl ;
   line-height: 36px !important;
   text-align: justify;
-  text-align-last:left; 
+  text-align-last:right; 
 
 }
   /* .row>* {
