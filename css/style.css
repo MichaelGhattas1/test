@@ -2734,18 +2734,28 @@ display: none;  }
   }
 
   p{
+    margin: auto;
     -webkit-text-align: justify;
     /* white-space: pre-line !important ; */
-    text-align: justify !important;
+    /* text-align: justify !important; */
     font-weight: 400;
     padding-inline: 10px;
+    text-align-last: right;
+    text-align: justify;
     line-height: 1.8 !important;
+  }
+
+  .text-right {
+    text-align: right;
   }
 
   @supports (-webkit-overflow-scrolling: touch) {
     p {
       direction: rtl;
-      -webkit-box-direction: reverse;
+      width: 95% !important ;
+      margin: auto;
+      display: inline;
+      text-align-last: right;
         line-height: 1.8 !important; 
           /* Line height for iOS devices */
     text-align: justify !important;
@@ -2753,7 +2763,7 @@ display: none;  }
     font-weight: 300;
     -webkit-text-align: justify !important;
     align-content: flex-end;
-    background-color: rgb(149, 141, 222) !important;
+    background-color: rgb(102, 188, 235) !important;
       }
   }
   .row>* {

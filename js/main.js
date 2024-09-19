@@ -11,12 +11,7 @@ var windowHeight = $(window).height(); // Get the height of the viewport (100vh)
 
 $(document).ready(function () {
 
-  const texts = document.querySelectorAll('p')
-
-  texts.forEach((text)=>{
-    text.style.direction = direction
-  })
-
+  
 
   $(".owl-carousel").owlCarousel({
     items: 8,
