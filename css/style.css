@@ -2741,10 +2741,14 @@ display: none;  }
 
   @supports (-webkit-overflow-scrolling: touch) {
     p {
-        line-height: 1.8em !important;                /* Line height for iOS devices */
+      direction: rtl;
+        line-height: 1.8em !important;  
+                      /* Line height for iOS devices */
     text-align: justify !important;
+    font-size: 14px !important;
+    font-weight: 400;
     -webkit-text-align: justify !important;
-    background-color: rgb(189, 196, 196) !important;
+    background-color: rgb(96, 122, 209) !important;
       }
   }
   .row>* {
