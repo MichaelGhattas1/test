@@ -3309,6 +3309,7 @@ p { margin: 0px !important;
 }
  .arabic-container {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;  /* Align text to the right */
   text-align: justify;
  }
