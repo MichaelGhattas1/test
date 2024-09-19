@@ -2729,6 +2729,11 @@ display: none;  }
 
   }
 
+  p{
+    -webkit-text-align: justify;
+
+  }
+
   @supports (-webkit-overflow-scrolling: touch) {
     p {
         line-height: 1.8 !important;                /* Line height for iOS devices */
@@ -3344,6 +3349,6 @@ p.test-text {
         line-height: 2  !important;                /* Line height for iOS devices */
     }
   }
-  background: red;
+  background: blueviolet;
 }
 
