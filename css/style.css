@@ -2731,7 +2731,7 @@ display: none;  }
 
   p{
     -webkit-text-align: justify;
-    white-space: pre-line !important ;
+    /* white-space: pre-line !important ; */
 
   }
 
