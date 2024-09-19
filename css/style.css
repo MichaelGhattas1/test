@@ -3338,5 +3338,12 @@ p.test-text {
   text-align-last: right;
   hyphens: auto; 
   line-height: 1.8!important;
-  background: blueviolet;
+
+  @supports (-webkit-overflow-scrolling: touch) {
+    p {
+        line-height: 1.8  !important;                /* Line height for iOS devices */
+    }
+  }
+  background: red;
 }
+
