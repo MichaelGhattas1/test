@@ -2744,7 +2744,7 @@ display: none;  }
   }
 p {
   direction: rtl ;
-  line-height: 36px !important;
+  line-height: unset !important;
   text-align: justify;
   text-align-last:right; 
 
@@ -3352,6 +3352,13 @@ h3 {
 }
 
 .test-text {
+  direction: rtl;
+  padding: 1rem;
+  text-align: justify;
+}
+
+p.test-text {
+  direction: rtl;
   padding: 1rem;
   text-align: justify;
 }
