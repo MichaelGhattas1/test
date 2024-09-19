@@ -2737,9 +2737,12 @@ display: none;  }
 
   @supports (-webkit-overflow-scrolling: touch) {
     p {
-        line-height: 1.8 !important;                /* Line height for iOS devices */
-    
-    background-color: red;
+      width: 100%;
+      padding: 0px 10px !important;
+        line-height: 2 !important;                /* Line height for iOS devices */
+    text-align: justify !important;
+    -webkit-text-align: justify !important;
+    background-color: cyan !important;
       }
   }
   .row>* {
