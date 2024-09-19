@@ -2741,11 +2741,14 @@ display: none;  }
   }
 p {
   line-height: 36px !important;
+  text-align: justify;
+  text-align-last: justify; 
+
 }
-  .row>* {
+  /* .row>* {
     padding-left: 10px !important;
     padding-right: 10px !important;
-  }
+  } */
 
   .who-us p { 
     line-height: 36px !important;
