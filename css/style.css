@@ -2731,7 +2731,7 @@ display: none;  }
 
   @supports (-webkit-overflow-scrolling: touch) {
     p {
-        line-height: 36px !important;                /* Line height for iOS devices */
+        line-height: 1.8 !important;                /* Line height for iOS devices */
     }
   }
   .row>* {
