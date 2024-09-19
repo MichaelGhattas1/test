@@ -2729,6 +2729,11 @@ display: none;  }
 
   }
 
+  @supports (-webkit-overflow-scrolling: touch) {
+    p {
+        line-height: 36px !important;                /* Line height for iOS devices */
+    }
+  }
   .row>* {
     padding-left: 0px !important;
     padding-right: 0px !important;
