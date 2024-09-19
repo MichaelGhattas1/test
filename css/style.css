@@ -2740,9 +2740,10 @@ display: none;  }
 
   }
 p {
+  direction: rtl;
   line-height: 36px !important;
   text-align: justify;
-  text-align-last: justify; 
+  text-align-last: right; 
 
 }
   /* .row>* {
@@ -2751,6 +2752,7 @@ p {
   } */
 
   .who-us p { 
+    padding: 0px 10px;
     line-height: 36px !important;
 
   }
