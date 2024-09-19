@@ -3314,5 +3314,6 @@ p.test-text {
   unicode-bidi: plaintext;
   text-align-last: right;
   -moz-text-align-last: right; /* For Firefox */
-  -webkit-text-align-last: right
+  -webkit-text-align-last: right ;
+  line-height: 1.8 ;
 }
