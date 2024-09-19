@@ -1,5 +1,5 @@
 * {
-  font-family: Cairo;
+  font-family: 'Alexandria';
   box-sizing: border-box !important;
 }
 html {
@@ -1156,7 +1156,7 @@ margin-bottom: 30px;
 .services .services-container .service-list-wrapper p {
   opacity: 80%;
   color: #1b1e1d;
-  font-family: Cairo;
+  font-family: "Alexandria";
   font-size: 24px;
   font-weight: 400;
   line-height: 37.9px;
@@ -1704,7 +1704,7 @@ margin-bottom: 30px;
       }
       h5 {
         margin: 0;
-        font-family: Cairo;
+        font-family: "Alexandria";
         font-size: 50px;
         font-weight: 700;
         line-height: 90px;
@@ -1899,7 +1899,7 @@ footer {
     a {
       color: #fff;
       text-align: right;
-      font-family: Cairo;
+      font-family: "Alexandria";
       font-size: 16px;
       font-style: normal;
       text-decoration: none;
@@ -2726,8 +2726,8 @@ display: none;  }
   }
   h1 , h2 , h3 ,h4 ,h5 ,h6 , p , li ,button  {
 
-    font-size: unset !important;
-    line-height: unset !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
     margin: 0 !important;
     margin-bottom: 10px !important;
 
@@ -2736,19 +2736,21 @@ display: none;  }
   p{
     -webkit-text-align: justify;
     /* white-space: pre-line !important ; */
-
+    text-align: justify !important;
+    font-weight: 400;
+    padding-inline: 10px;
+    line-height: 1.8 !important;
   }
 
   @supports (-webkit-overflow-scrolling: touch) {
     p {
       direction: rtl;
-        line-height: 1.8em !important;  
-                      /* Line height for iOS devices */
+        line-height: 1.8em !important;   /* Line height for iOS devices */
     text-align: justify !important;
     font-size: 16px !important;
-    font-weight: 400;
+    font-weight: 300;
     -webkit-text-align: justify !important;
-    background-color: rgb(236, 134, 218) !important;
+    background-color: rgb(20, 211, 103) !important;
       }
   }
   .row>* {
@@ -2838,6 +2840,12 @@ img {
   }
   .services .header {
     margin-bottom: 0px;
+  }
+
+  .services .services-container .service-list-wrapper {
+    min-height: unset;
+    max-height: unset;
+    padding: 30px 10px 0px;
   }
 
   .services .services-container .service-list-wrapper .show-more {
@@ -3040,7 +3048,7 @@ padding: 0px;
 }
 
 #vision {
-  padding: 3% 5%;
+  padding: 1.25rem;
 }
 
 .visions-container{
@@ -3083,15 +3091,7 @@ padding: 0px;
       display: flex;
       justify-content: flex-end;
       direction: rtl;
-      padding-inline: 20px !important;
-      p{
-        display: inline-block !important;
-  direction: rtl !important;
-  text-align: justify;
-  text-align-last: right;
-  hyphens: auto; 
-  line-height: 1.8 !important;
-      }
+      /* padding-inline: 20px !important; */
      }
   }
 
